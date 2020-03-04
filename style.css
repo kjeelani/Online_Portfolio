@@ -1,0 +1,113 @@
+body, html, *{
+	margin: 0;
+	padding: 0;
+}
+
+/*relating to the header content*/
+h1{
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+h3, a{
+	font-family: 'Odibee Sans', cursive;
+	font-size: 20px;
+}
+
+p{
+	font-family: 'Tomorrow', sans-serif;
+}
+
+.nav{
+	background-color: grey;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	padding: 0px 20px 0px 20px;
+	transition: .7s;
+}
+
+.nav a:hover{
+	background-color: rgb(90, 90, 90);
+	color: rgb(231, 229, 229);
+}
+
+ul{
+	display: flex;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+}
+
+.header{
+	background-image: url("djmixer.jpg");
+	height: 800px;
+	background-size: contain;
+}
+
+.header img{
+	border-radius: 70%;
+}
+
+.head_text{
+	position: absolute;
+	background-color: rgba(128, 128, 128, 0.616);
+	width: 100%;
+	text-align: center;
+	top: 33%;
+	color: rgb(236, 222, 222);
+}
+
+/*Relating to the Project Content*/
+.section_head{
+	background-color: grey;
+	padding: 50px;
+}
+
+.section_head h1{
+	font-size: 48px;
+	letter-spacing: .75px;
+	text-align: center;
+}
+
+.project_row{
+	margin-top: 30px;
+}
+
+
+.project_post{
+	display: inline-block;
+	width: 49.85%;
+	text-align: center;
+	vertical-align: top;
+}
+
+.project_post img{
+	width: 250px;
+	height: 250px;
+}
+
+.project_post a{
+	padding: 5px;
+	text-decoration: none;
+	font-size: 24px;
+	border: 4px rgb(87, 82, 82) solid;
+	border-radius: 35%;
+	background-color: grey;
+	color: white;
+	transition: 0.3s;
+}
+
+.project_post a:hover{
+	border-color: #4E7566;
+	color: #cd7f32;
+	background-color: rgb(129, 192, 168);
+}
