@@ -3,6 +3,11 @@ body, html, *{
 	padding: 0;
 }
 
+/*hides scrollbars*/
+body::-webkit-scrollbar{
+	display: none;
+}
+
 /*relating to the header content*/
 h1{
 	font-family: 'Saira Semi Condensed', sans-serif;
@@ -10,11 +15,12 @@ h1{
 
 h3, a{
 	font-family: 'Odibee Sans', cursive;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 p{
 	font-family: 'Tomorrow', sans-serif;
+	font-size: 18px;
 }
 
 .nav{
@@ -65,7 +71,7 @@ li{
 
 .header{
 	background-image: url("djmixer.jpg");
-	height: 800px;
+	height: 700px;
 	background-size: contain;
 }
 
@@ -82,7 +88,22 @@ li{
 	color: rgb(236, 222, 222);
 }
 
-/*Relating to the Project Content*/
+/*Relating to the About Me Content*/
+.aboutmetext{
+	text-align: center;
+}
+
+.aboutmeimg{
+	float: left;
+}
+
+#aboutmepic{
+	float:left;
+	width:101%;
+	padding-right: 5px;
+}
+
+/*Relating to the Projects Content*/
 .section_head{
 	background-color: grey;
 	padding: 50px;
@@ -101,7 +122,7 @@ li{
 
 .project_post{
 	display: inline-block;
-	width: 49.85%;
+	width: 49.5%;
 	text-align: center;
 	vertical-align: top;
 }
@@ -111,7 +132,8 @@ li{
 	height: 250px;
 }
 
-.project_post a{
+/*This part styles all buttons in general*/
+#butn{
 	padding: 5px;
 	text-decoration: none;
 	font-size: 24px;
@@ -122,8 +144,13 @@ li{
 	transition: 0.3s;
 }
 
-.project_post a:hover{
+#butn:hover{
 	border-color: #4E7566;
 	color: #cd7f32;
 	background-color: rgb(129, 192, 168);
+}
+
+/*Contact Page CSS*/
+#contact{
+	text-align: center;
 }
