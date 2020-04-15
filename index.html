@@ -11,11 +11,18 @@
 	  <!--This includes the navbar and the header text-->
     <div id="home" class="header">
 		<div class="nav">
-			</ul>
-				<li><a href="#html">HTML Projects</a></li>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#python">Python Projects</a></li>
-			</a>
+			<div class="id_text">
+				<ul class="id_text">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#aboutme">About Me</a></li>
+					<li><a href="#python">Python Projects</a></li>
+					<li><a href="#html">HTML Projects</a></li>
+					<li><a href="#contact">Contact Information</a></li>
+				</ul>
+			</div>
+			<div class="logo">
+				<a href="https://www.ycwalameda.weebly.com"><img src="YCW.png"></a>
+			</div>
 		</div>
 		<div class="head_text">
 			<img src="myAvatar.png">
@@ -23,6 +30,31 @@
 			<h3>Programmer, Piano Player, and Tutor</h3>
 		</div>
     </div>
+
+	<!--A 3 paragraph short about me section with a resume attatched-->
+	<div id="aboutme" class="section_head">
+		<h1>About Me</h1>
+	</div>
+	<div class="aboutmebox">
+		<div class="aboutmetext">
+			<div class="aboutmeimg">
+				<img id="aboutmepic" src="kaifpic.jpg">
+			</div>
+			<p>Welcome to my webpage. My name is Kaif Jeelani and I am a sophomore at Dublin High. If I'm not practicing USACO (Computing Olympiad) problems or learning new algorithms and data structures, I'm probably working on my nonprofit or am trying to compose or learn a new piece on my keyboard. I've been programming for around 3 years and have been teaching programming for 1.5 years, and mainly program in Python, though I do have experience in Javascript, Java, and HTML.
+			</p><br>
+			<p>I am pursuing a field of computer science and buisness because combining programming knowledge and the logic that comes with it into the field of entrepreneurship and buisness is very promising path to success, albiet one that is very risky. I also have a passion in teaching others, and my nonprofit, YCW, aims at teaching students how to program for free in order to pique their interest at this promising and amazing field that can improve any field.</p><br>
+			<p>Finally, besides teaching and programming, I love composing, listening to, and playing music on my keyboard. It is a nice breather from sitting on a computer screen all day, and it really helps freshen up the mind and soul. People say that music and math have a very strong correlation, and I agree wholeheartedly, as the logical appeal of music is definitely as appealing as programming is!</p><br>
+			</p><br>
+			<p>After reading this and checking out my projects, if you are interested in hiring me as an intern or are just interested in my achievements, please check out my resume below!</p><br>
+			<a id="butn" target="new" href="Kaif Jeelani's Resume.pdf">My Resume</a>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	
+
+	<!--From here on out, all the projects are split up into rows of two projects each, each project having an image, caption, and a button sending them to that project-->
 
 	<!--This includes all Python Projects-->
 	<div id="python" class="section_head">
@@ -32,16 +64,16 @@
 		<div class="project_post">
 			<img src="endlesswoodland.jpg">
 			<h3>Endless Woodlands</h3>
-			<p>This is a game that I use countlessly to entice my students into learning Python. It is a text-based adventure game where you are lost in an endless forest with no clue how you arrived. There are monsters to fight,puzzles to solve, and different boss encounters depending on your choices. It is a game that teaches conditional chaining, functional programming, and class implementation, and is perfect for a final project in Python.</p>
+			<p>This is a game that I use countlessly to entice my students into learning Python. It is a text-based adventure game where you are lost in an endless forest with no clue how you arrived. There are monsters to fight, puzzles to solve, and different boss encounters depending on your choices. It is a game that teaches conditional chaining, functional programming, and class implementation, and is perfect for a final project in Python.</p>
 			<br>
-			<a target="new" href="https://repl.it/@fieryraidenx/endlesswoodlandsbackup">Check It Out</a>
+			<a id="butn" target="new" href="https://repl.it/@fieryraidenx/endlesswoodlandsbackup">Check It Out</a>
 		</div>
 		<div class="project_post">
 			<img src="statcalc.png">
 			<h3>Statistical Calculator</h3>
 			<p>This wa an applet I designed to help with statistical analysis before I obtained a graphing calculator. There are defintely many more functions I can add, such as ncdf(), tcdf(), and countless significance test functions, but I decided to be simple and just print out basic data. I do have one that also prints out 1var and 2var graphs, but it will not run on repl.it, so this is a basic version of the full applet.</p>
 			<br>
-			<a target="new" href="https://repl.it/@fieryraidenx/statistics">Check It Out</a>
+			<a id="butn" target="new" href="https://repl.it/@fieryraidenx/statistics">Check It Out</a>
 		</div>
 	</div>
 	<div class="project_row">
@@ -50,7 +82,7 @@
 			<h3>Snake Game</h3>
 			<p>A very basic two-player snake game that I plan on implementing into my curriculum in order to teach the turtle library. There are no textures, just shapes, but the functionality of the game works pretty well. There are two different types of "foods" that the snake can eat to gain length and speed. In the future, I might go back and create an algorithm that factors in the amount of food eaten and not just who dies first, but for now, not eating food seems to be the best way to win. <strong>RUN IN PYGAME OR ON AN IDE.</strong></p>
 			<br>
-			<a target="new"
+			<a id="butn" target="new"
 			href="https://trinket.io/python3/3b6cea3af9">Check It Out</a>
 		</div>
 		<div class="project_post">
@@ -58,7 +90,7 @@
 			<h3>Space Madness</h3>
 			<p>An offshoot of the genre of text-based adventure games, this one was made very recently as my other one(Endless Woodlands) had absolutely no comments(I know atrocius), and could get a bit complicated at times. This one was created by me and a friend in our computer science class, but with my friend's permission, I put a lot of effort into creating unique minigames and events that use a combination of lists, recursive loops, functions, and libraries filled with comments in order to use it in my nonprofit's curriculum. This one is more riddle-based, with less monsters to fight.</p>
 			<br>
-			<a target="new" href="https://repl.it/@fieryraidenx/SpaceMadness">Check It Out</a>
+			<a id="butn" target="new" href="https://repl.it/@fieryraidenx/SpaceMadness">Check It Out</a>
 		</div>
 	</div>
 
@@ -72,14 +104,14 @@
 			<h3>Elemental Bosses</h3>
 			<p>This is probably the game that I put the most effort into. It has three different bosses at three different diffuclties, each with their own soundtrack, quirks, and easter eggs. While the HTML page is a bit too colorful, and the lore is lacking, the gameplay definitely makes up for it. It was created using a canvas in Javascript, and won me a competition at a mini-Hackathon.</p>
 			<br>
-			<a target="new"  href="https://nishadisaboss.netlify.com">Check It Out</a>
+			<a id="butn" target="new"  href="https://nishadisaboss.netlify.com">Check It Out</a>
 		</div>
 		<div class="project_post">
 			<img src="Ignuem_Colossus.jpeg">
 			<h3>Demon vs. Hero</h3>
 			<p>It's in the name! This is a two player Javascript canvas game that has many interesting features. The first is that the hero is smaller/faster than the hero and can shoot swords. The hero can also be healed with Toxic Waste(I was 13 when I made this, don't judge). The demon, on the other hand, is slow and big, and takes a lot of damage from th Toxic Waste, but deals HUGE damage to the hero if the hero comes in contact with him. Make sure to have a friend to play with and have fun!</p>
 			<br>
-			<a target="new" href="https://demonvshero.netlify.com">Check It Out</a>
+			<a id="butn" target="new" href="https://demonvshero.netlify.com">Check It Out</a>
 		</div>
 	</div>
 	<div class="project_row">
@@ -88,17 +120,30 @@
 			<h3>Wynncraft Merch</h3>
 			<p>This was an HTML test at the place I work at, and I decided to have a go at it. While the design is blockish, it fits the theme of a medival RPG Minecraft server well,and the colors provide a nice "woodland" theme. It uses Javascript to create a slideshow of images from the original Wynncraft site, and it promotes their in-game merchandise in a consise manner.</p>
 			<br>
-			<a target="new" href="https://wynncraftmerch.netlify.com">Check It Out</a>
+			<a id="butn" target="new" href="https://wynncraftmerch.netlify.com">Check It Out</a>
 		</div>
 		<div class="project_post">
-			<img src="garageband.jfif">
-			<h3>BUY MY MUSIC</h3>
-			<p>A testament to my old, cringy days of being a middle schooler, I dedicated a website specifically to "selling" my music. In reality, I just wanted exposure, but it was just for fun. It showcases the use of navbars, multi-page websites, and borders, and the music itself isn't half-bad.</p>
+			<img src="ycwofficallogo.jpg">
+			<h3>YCW Test Website</h3>
+			<p>While our official website can be found <a href="https://ycwalameda.weebly.com/" target="new">here</a>, this was created as a project to see how Bootstrap can effectively organize websites, and was intended to be YCW's official webpage. What is YCW, you ask? It's a nonprofit that teaches students how to code for free. Creating this website did take a while as I was very new to Bootstrap, but it was worth it as I now have a very powerful tool to arrange my websites in ways that I never imagined before.</p>
 			<br>
-			<a target="new"  href="https://frxmusic.netlify.com">Check It Out</a>
+			<a id="butn" target="new"  href="https://html-project.fieryraidenx.repl.co/index.html">Check It Out</a>
 		</div>
 	</div>
 	<br>
+	<!--Contact Info-->
+	<div id="contact" class="section_head">
+		<h1>Contact Information</h1>
+		<br>
+		<h3>Personal Email: kaif.ajeelani@gmail.com</h3>
+		<h3>YCW Email: ycw.alameda@gmail.com</h3>
+		<br><br>
+		<div class="button-container">
+			<a id="butn" target="new"  style="float:left; margin-left: 23.5%;" href="https://www.youtube.com/channel/UCYR82IZdEl7lXk7MHygj4aw">Personal Youtube</a>
+			<a id="butn" target="new" style="display: inline;" href="https://github.com/fieryraidenx">My Github</a>
+			<a id="butn" target="new" style="float:right; margin-right: 23.5%;" href="https://www.youtube.com/channel/UCCui7BFR5_g4j_u12xWJy_g">YCW's Youtube</a>
+		</div>
+	</div>
   </body>
 </html>
 
